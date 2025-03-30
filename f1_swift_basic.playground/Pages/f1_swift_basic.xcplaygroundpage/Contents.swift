@@ -52,3 +52,20 @@ print("Can Proceed or Not: \(canProceeedOrNot)")
 let isNight = true
 
 let message = isNight ? "Good Night!" : "Good Morning!"
+
+// STRINGS AND STRING INTERPOLATION
+var language = "Swift"
+
+// Concatenation
+var greetings = "Hello, " + language + "!"
+
+// Appending
+language.append(" Programming")
+
+// String interpolation
+
+let names = "Alice"
+let ages = 25
+let heights = 180.1
+
+let introduction = "Hello, my name is \(names), I am \(ages) years old, and I am \(heights) cm tall."
