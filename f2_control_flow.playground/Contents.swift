@@ -56,3 +56,39 @@ default:
     print("Invalid score.")
 }
 
+// FOR-IN LOOP
+let fruits = ["Apple", "Banana", "Orange", "Mango"]
+
+for fruit in fruits {
+    print(fruit)
+}
+
+// WHILE
+var counter = 5
+
+while counter > 0 {
+    print("counter: \(counter)")
+    counter -= 1
+}
+
+// REPEAT-WHILE
+var attempts = 0
+var maxAttempts = 3
+
+repeat {
+    print("attemps: \(attempts + 1)")
+    attempts += 1
+} while attempts < maxAttempts
+
+// CONTINUE and BREAK
+for number in 1...10 {
+    if number == 5 {
+        continue
+    }
+    
+    if number == 8 {
+        break
+    }
+    
+    print("number: \(number)")
+}
